@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;700&display=swap');
+
+body {
+    background-image: url('images/homepage.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 1440px;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @font-face {
+    font-family: 'custom';
+    src: url('fonts/ZTBrosOskon90s-Italic.otf') format('opentype');
+  }
+  
+  .name-text {
+    color: #7A3030;
+    font-size: 72px;
+    line-height: 20px;
+    width: 392.5px;
+    height: 20px;
+    font-family: 'custom', sans-serif; 
+    position: absolute;
+    top: 234px;
+    left: 524px;
+    bottom: 770px;
+    right: 524px;
+  }
+
+.desc-text { 
+    color: #4B5563;
+    font-size: 15px;
+    line-height: 20px;
+    width: 494px;
+    height: 80px;
+    font-family: 'DM Mono-medium', monospace;
+    transform: translateX(-50%); 
+    position: absolute;
+    top: 310px;
+    left: 733px; 
+    word-wrap: break-word; 
+    white-space: normal; 
+    text-align: center; 
+}
